@@ -7,3 +7,24 @@ Content-Type: application/json
     "email": "nelsonhimbaza@gmail.com",
     "password": "Himbaza"
 }
+
+
+### Get a particular user
+GET http://localhost:3000/auth/400
+
+
+### Find all users with a given email
+GET http://localhost:3000/auth?email=nelsonhimbaza@gmail.com
+
+### Delete a user with a given ID
+DELETE http://localhost:3000/auth/400
+
+
+### Update a user with a given ID
+PATCH http://localhost:3000/auth/20
+Content-Type: application/json
+
+{
+    "password": "Nel"
+}
+
