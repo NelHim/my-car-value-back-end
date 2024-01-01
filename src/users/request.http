@@ -21,10 +21,10 @@ DELETE http://localhost:3000/auth/400
 
 
 ### Update a user with a given ID
-PATCH http://localhost:3000/auth/20
+PATCH http://localhost:3000/auth/3
 Content-Type: application/json
 
 {
-    "password": "Nel"
+    "email": "Nel@123.com"
 }
 
